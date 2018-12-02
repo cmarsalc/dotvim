@@ -49,6 +49,7 @@ inoremap jj <esc>
 let mapleader = " "
 " double space is clear search highlight
 nnoremap <Leader><space> :noh<cr>
+" leader-c is make and execute
 map <leader>c :!make '%:r' && ./'%:r'.exe
 
 " Doxygen style comments
@@ -79,3 +80,6 @@ execute pathogen#infect()
 
 " Cool colorscheme downloaded from https://github.com/morhetz/gruvbox/
 colorscheme gruvbox
+
+" Change temporary files folder to somewhere else
+set backupdir=/usr/tmp
