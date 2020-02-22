@@ -86,4 +86,4 @@ highlight Normal ctermbg=NONE
 highlight nonText ctermbg=NONE
 
 " Change temporary files folder to somewhere else
-set backupdir=/usr/tmp
+set backupdir=~/.vim/backups
